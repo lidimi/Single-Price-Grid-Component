@@ -57,7 +57,7 @@ h2 {
 }
 
 .header p {
-    margin: 2em 0 1em;
+    margin-top: 2em;
     font-size: 16px;
     color: hsl(218, 22%, 67%);
 }
@@ -94,9 +94,11 @@ button {
     -webkit-box-shadow: 5px 20px 31px -7px rgba(110, 111, 136, 1);
     -moz-box-shadow: 5px 20px 31px -7px rgba(110, 111, 136, 1);
     box-shadow: 5px 20px 31px -7px rgba(110, 111, 136, 1);
-    cursor: pointer;
 }
 
+button:hover {
+    cursor: pointer;
+}
 h4{
     font-size: 20px;
 }
